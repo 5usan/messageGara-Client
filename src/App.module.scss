@@ -1,0 +1,8 @@
+@import "./styles/abstract/mixins"; 
+@import "./styles/abstract/variables"; 
+.main {
+    border: 1px solid red;
+    @include Screen-size-small {
+        border: 1px solid green;
+    }
+}
